@@ -20,7 +20,6 @@ import org.springframework.format.annotation.DateTimeFormat.ISO;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-
 @Entity
 @Table(name="Customer")
 @Data
