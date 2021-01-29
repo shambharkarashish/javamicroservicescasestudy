@@ -1,0 +1,77 @@
+# java.util.Date implementation
+#scalar Date
+
+# java.time.LocalDate implementation
+#scalar LocalDate
+
+# java.time.LocalDateTime implementation
+#scalar LocalDateTime
+
+# java.time.LocalTime implementation
+#scalar LocalTime
+
+# java.time.OffsetDateTime implementation
+#scalar OffsetDateTime 
+
+# java.time.YearMonth implementation
+#scalar YearMonth
+
+# java.time.Duration implementation
+#scalar Duration
+
+type Customer {
+	customerId: ID!,
+	name: String,
+	email: String,
+	dob: String,
+	gender:String
+    addresses: [Address!]
+}
+
+
+type Address {
+	addressId: ID!,
+	city: String,
+	state: String,
+	doorNo: String,
+	street: String,
+	customer: Customer!
+}
+
+type Query {
+	findAllCustomers:[Customer]
+	findCustomer(customerId: ID):Customer
+}
+input FullName {
+	firstName:String,
+	middleName:String,
+	lastName:String
+
+}
+
+input InputAddress {
+	addressId: ID!,
+	city: String,
+	state: String,
+	doorNo: String,
+	street: String
+	customerId:Long
+}
+input InputCustomer {
+	customerId: ID!,
+	name: FullName,
+	email: String,
+	dob: String,
+	gender:String,
+	addresses:[InputAddress!]
+  
+}
+
+
+type Mutation {
+    createCustomer(input: InputCustomer!): Customer!
+    updateCustomer(input: InputCustomer!): Customer!
+    deleteCustomer(id: Int!): Boolean!
+   
+}
+

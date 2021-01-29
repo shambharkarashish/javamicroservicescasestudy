@@ -124,3 +124,24 @@
 2020-12-26 22:41:36,385 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] User Name...root
 2020-12-26 22:41:36,385 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Password...Stardrops@01
 2020-12-26 22:42:24,811 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] Started CustomerapiApplication in 91.406 seconds (JVM running for 92.404)
+2020-12-26 22:43:30,189 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] The following profiles are active: dev
+2020-12-26 22:43:31,694 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Message from Property filemessage from dev from clustomer service.
+2020-12-26 22:43:31,694 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] User Name...root
+2020-12-26 22:43:31,694 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Password...Stardrops@01
+2020-12-26 22:44:14,553 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] Started CustomerapiApplication in 82.515 seconds (JVM running for 202.145)
+2020-12-26 23:00:09,297 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] The following profiles are active: dev
+2020-12-26 23:00:13,765 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Message from Property filemessage from dev from clustomer service.
+2020-12-26 23:00:13,765 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] User Name...root
+2020-12-26 23:00:13,765 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Password...Stardrops@01
+2020-12-26 23:00:43,600 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] Started CustomerapiApplication in 75.774 seconds (JVM running for 76.714)
+2020-12-26 23:27:12,727 INFO com.virtusa.banking.controllers.CustomerController [http-nio-7070-exec-9] Message from Property fileabc
+2020-12-26 23:27:32,764 INFO com.virtusa.banking.controllers.CustomerController [http-nio-7070-exec-10] Message from Property fileabc
+2020-12-26 23:30:11,639 INFO com.virtusa.banking.controllers.CustomerController [http-nio-7070-exec-3] Message from Property fileabc
+2020-12-26 23:30:57,521 INFO com.virtusa.banking.controllers.CustomerController [http-nio-7070-exec-1] Message from Property fileabc
+2020-12-26 23:31:00,603 INFO com.virtusa.banking.controllers.CustomerController [http-nio-7070-exec-5] Message from Property fileabc
+2021-01-09 00:19:05,876 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] The following profiles are active: dev
+2021-01-09 00:19:11,464 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Message from Property filemessage from dev from clustomer service.
+2021-01-09 00:19:11,465 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] User Name...root
+2021-01-09 00:19:11,465 INFO com.virtusa.banking.configurations.DbConfiguration [restartedMain] Password...Stardrops@01
+2021-01-09 00:19:48,185 INFO com.virtusa.banking.controllers.CustomerController [http-nio-7070-exec-1] Message from Property fileabc
+2021-01-09 00:19:48,829 INFO com.virtusa.banking.CustomerapiApplication [restartedMain] Started CustomerapiApplication in 49.255 seconds (JVM running for 50.568)

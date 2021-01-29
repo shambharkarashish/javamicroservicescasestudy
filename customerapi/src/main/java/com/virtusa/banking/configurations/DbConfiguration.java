@@ -42,12 +42,12 @@ public class DbConfiguration {
     {
     	log.info("Message from Property file"+message);
     	//log.info("Entering Production Env.....");
-    	log.info("User Name..."+username);
-    	log.info("Password..."+password);
+    	log.info("User Name..."+vaultConfiguration.getUsername());
+    	log.info("Password..."+vaultConfiguration.getPassword());
     	dataSourceBuilder=DataSourceBuilder.create();
     	dataSourceBuilder.url(url);
-    	dataSourceBuilder.username(username);
-    	dataSourceBuilder.password(password);
+    	dataSourceBuilder.username(vaultConfiguration.getUsername());
+    	dataSourceBuilder.password(vaultConfiguration.getPassword());
     	dataSourceBuilder.driverClassName(driver);
     	return dataSourceBuilder.build();
    	
